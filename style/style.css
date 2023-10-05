@@ -34,7 +34,7 @@ body{
 
 #hire{
       color: white;
-      background-color: orangered;
+      background-color:rgb(253,110,10);
       font-size: 20px;  
       font-family: arial;
       height: 50px;
@@ -45,9 +45,9 @@ body{
 
 }
 #hire:hover{
-        color: orangered;
+        color: rgb(253,110,10);
         background-color: white;
-        border: 2px solid orangered;
+        border: 2px solid rgb(253,110,10);
         /* border-color: orangered; */
 }
 .hero{
@@ -107,19 +107,67 @@ body{
 
 }
 .download:hover{
-        color:rgb(253,110,10);
-        background-color: none;
-        border-color: rgb(206,110,10);
+        color: rgb(253,110,10);
+        background-color: white;
+        border: 2px solid rgb(253,110,10);
+        /* border-color: orangered; */
 }
 .contact{
 
-        
-        padding: 15px 32px;
-        text-align: center;
+        color: rgb(253,110,10);
+        background-color: white;
+        border: 2px solid rgb(253,110,10);
+        display: inline-block;
         font-size: 20px;
         margin: 4px 2px;
         cursor: pointer;
         border-radius: 50px;
-        border-color: #ff9800;
-        color: orange;
+        padding: 15px 32px;
+        text-align: center;
+        /* border-color: orangered; */
+        
       }
+.contact:hover{
+        background-color: rgb(253,110,10);
+        color: #fff;
+        border: none;      
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 50px;
+}
+.lower-part{
+        display: flex;
+        justify-content:space-between;
+        border:1px solid red;
+        border-radius: 100px;
+        width:60%;
+        height: 90px;
+        padding: 20px;
+        position: absolute;
+        bottom: 100px;
+        left: 120px;
+}
+hr{
+        height:70px;
+        font-weight: 100;
+        color: gray;
+}
+.one{
+        display:flex;
+}
+.one img{
+        background-color: rgb(253,110,10);
+        border: none;      
+        padding: 15px 32px;
+        text-decoration: none;
+        display: inline-block;      
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 50%;
+}
